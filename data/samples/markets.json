@@ -1,0 +1,9 @@
+{
+  "notice": "Entirely illustrative fixtures. These prices are invented for software testing, not AGMARKNET observations. Dates stay fixed and are never refreshed to look live.",
+  "observation_date": "2026-11-08",
+  "markets": [
+    {"id":"demo-khanna","market":"Khanna","district":"Ludhiana","min_price":"1050","modal_price":"1200","max_price":"1350","transport":"5500","loading":"1000","other":"500"},
+    {"id":"demo-ludhiana","market":"Ludhiana","district":"Ludhiana","min_price":"950","modal_price":"1100","max_price":"1250","transport":"3500","loading":"1000","other":"500"},
+    {"id":"demo-jagraon","market":"Jagraon","district":"Ludhiana","min_price":"900","modal_price":"1050","max_price":"1200","transport":"4500","loading":"1000","other":"500"}
+  ]
+}

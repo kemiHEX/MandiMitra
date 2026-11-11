@@ -1,0 +1,11 @@
+{$APP_DOMAIN} {
+    encode zstd gzip
+    request_body {
+        max_size 2100000
+    }
+    reverse_proxy web:3000 {
+        transport http {
+            response_header_timeout 120s
+        }
+    }
+}

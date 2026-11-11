@@ -1,0 +1,18 @@
+[
+ {"text":"Mere kol 40 quintal tamatar ne.","expected":{"crop":"tomato","quantity":40,"quantity_unit":"quintal"}},
+ {"text":"ਮੇਰੇ ਕੋਲ ਚਾਲੀ ਕੁਇੰਟਲ ਟਮਾਟਰ ਹਨ।","expected":{"crop":"tomato","quantity":40}},
+ {"text":"मेरे पास चौदह क्विंटल टमाटर हैं।","expected":{"crop":"tomato","quantity":14}},
+ {"text":"I have 4000 kg tomato. Offer 9 rupees per kg in Ludhiana.","expected":{"quantity":4000,"quantity_unit":"kg","trader_offer":9,"offer_unit":"kg","location":"Ludhiana"}},
+ {"text":"Chali nahi, chaudah quintal.","expected":{"quantity":14,"intent":"correct"}},
+ {"text":"Khanna transport 7000 nahi, 4000 laguga.","expected":{"transport":4000,"market_name":"Khanna"}},
+ {"text":"900 rupaye","state":{"quantity":"40","crop":"tomato"},"expected":{"trader_offer":900,"offer_unit":"quintal"}},
+ {"text":"ਮੇਰੇ ਕੋਲ ੪੦ ਕੁਇੰਟਲ ਕਣਕ ਹੈ।","expected":{"crop":"wheat","quantity":40}},
+ {"text":"मेरे पास २० क्विंटल आलू हैं।","expected":{"crop":"potato","quantity":20}},
+ {"text":"I have 20 bags of tomato","expected":{"quantity":null},"clarification":true},
+ {"text":"42","expected":{"quantity":null},"clarification":true},
+ {"text":"Diagnose this crop disease","expected":{"intent":"unsupported"}},
+ {"text":"Will prices rise next week? forecast please","expected":{"intent":"unsupported"}},
+ {"text":"I have 40 quintal tomato and offer 900","expected":{"quantity":40,"trader_offer":900},"clarification":true},
+ {"text":"How is the break-even calculated?","expected":{"intent":"explain"}},
+ {"text":"Ludhiana","expected":{"location":"Ludhiana"}}
+]
